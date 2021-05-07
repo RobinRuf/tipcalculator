@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0004BCBA258248D600D65C9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004BCB9258248D600D65C9C /* AppDelegate.swift */; };
+		0004BCBC258248D600D65C9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004BCBB258248D600D65C9C /* SceneDelegate.swift */; };
+		0004BCBE258248D600D65C9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004BCBD258248D600D65C9C /* ViewController.swift */; };
+		0004BCC1258248D600D65C9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0004BCBF258248D600D65C9C /* Main.storyboard */; };
+		0004BCC3258248D700D65C9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0004BCC2258248D700D65C9C /* Assets.xcassets */; };
+		0004BCC6258248D700D65C9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0004BCC4258248D700D65C9C /* LaunchScreen.storyboard */; };
+		0004BCD1258248D700D65C9C /* Trinkgeld_Rechner_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004BCD0258248D700D65C9C /* Trinkgeld_Rechner_AppTests.swift */; };
+		0004BCDC258248D800D65C9C /* Trinkgeld_Rechner_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0004BCDB258248D800D65C9C /* Trinkgeld_Rechner_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0004BCCD258248D700D65C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0004BCAE258248D600D65C9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0004BCB5258248D600D65C9C;
+			remoteInfo = "Trinkgeld Rechner App";
+		};
+		0004BCD8258248D800D65C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0004BCAE258248D600D65C9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0004BCB5258248D600D65C9C;
+			remoteInfo = "Trinkgeld Rechner App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0004BCB6258248D600D65C9C /* Trinkgeld Rechner App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trinkgeld Rechner App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0004BCB9258248D600D65C9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0004BCBB258248D600D65C9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0004BCBD258248D600D65C9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0004BCC0258248D600D65C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0004BCC2258248D700D65C9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0004BCC5258248D700D65C9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0004BCC7258248D700D65C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0004BCCC258248D700D65C9C /* Trinkgeld Rechner AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trinkgeld Rechner AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0004BCD0258248D700D65C9C /* Trinkgeld_Rechner_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trinkgeld_Rechner_AppTests.swift; sourceTree = "<group>"; };
+		0004BCD2258248D700D65C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0004BCD7258248D800D65C9C /* Trinkgeld Rechner AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trinkgeld Rechner AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0004BCDB258248D800D65C9C /* Trinkgeld_Rechner_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trinkgeld_Rechner_AppUITests.swift; sourceTree = "<group>"; };
+		0004BCDD258248D800D65C9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0004BCB3258248D600D65C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004BCC9258248D700D65C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004BCD4258248D800D65C9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0004BCAD258248D600D65C9C = {
+			isa = PBXGroup;
+			children = (
+				0004BCB8258248D600D65C9C /* Trinkgeld Rechner App */,
+				0004BCCF258248D700D65C9C /* Trinkgeld Rechner AppTests */,
+				0004BCDA258248D800D65C9C /* Trinkgeld Rechner AppUITests */,
+				0004BCB7258248D600D65C9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0004BCB7258248D600D65C9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0004BCB6258248D600D65C9C /* Trinkgeld Rechner App.app */,
+				0004BCCC258248D700D65C9C /* Trinkgeld Rechner AppTests.xctest */,
+				0004BCD7258248D800D65C9C /* Trinkgeld Rechner AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0004BCB8258248D600D65C9C /* Trinkgeld Rechner App */ = {
+			isa = PBXGroup;
+			children = (
+				0004BCB9258248D600D65C9C /* AppDelegate.swift */,
+				0004BCBB258248D600D65C9C /* SceneDelegate.swift */,
+				0004BCBD258248D600D65C9C /* ViewController.swift */,
+				0004BCBF258248D600D65C9C /* Main.storyboard */,
+				0004BCC2258248D700D65C9C /* Assets.xcassets */,
+				0004BCC4258248D700D65C9C /* LaunchScreen.storyboard */,
+				0004BCC7258248D700D65C9C /* Info.plist */,
+			);
+			path = "Trinkgeld Rechner App";
+			sourceTree = "<group>";
+		};
+		0004BCCF258248D700D65C9C /* Trinkgeld Rechner AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0004BCD0258248D700D65C9C /* Trinkgeld_Rechner_AppTests.swift */,
+				0004BCD2258248D700D65C9C /* Info.plist */,
+			);
+			path = "Trinkgeld Rechner AppTests";
+			sourceTree = "<group>";
+		};
+		0004BCDA258248D800D65C9C /* Trinkgeld Rechner AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0004BCDB258248D800D65C9C /* Trinkgeld_Rechner_AppUITests.swift */,
+				0004BCDD258248D800D65C9C /* Info.plist */,
+			);
+			path = "Trinkgeld Rechner AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0004BCB5258248D600D65C9C /* Trinkgeld Rechner App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0004BCE0258248D800D65C9C /* Build configuration list for PBXNativeTarget "Trinkgeld Rechner App" */;
+			buildPhases = (
+				0004BCB2258248D600D65C9C /* Sources */,
+				0004BCB3258248D600D65C9C /* Frameworks */,
+				0004BCB4258248D600D65C9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trinkgeld Rechner App";
+			productName = "Trinkgeld Rechner App";
+			productReference = 0004BCB6258248D600D65C9C /* Trinkgeld Rechner App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0004BCCB258248D700D65C9C /* Trinkgeld Rechner AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0004BCE3258248D800D65C9C /* Build configuration list for PBXNativeTarget "Trinkgeld Rechner AppTests" */;
+			buildPhases = (
+				0004BCC8258248D700D65C9C /* Sources */,
+				0004BCC9258248D700D65C9C /* Frameworks */,
+				0004BCCA258248D700D65C9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0004BCCE258248D700D65C9C /* PBXTargetDependency */,
+			);
+			name = "Trinkgeld Rechner AppTests";
+			productName = "Trinkgeld Rechner AppTests";
+			productReference = 0004BCCC258248D700D65C9C /* Trinkgeld Rechner AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0004BCD6258248D800D65C9C /* Trinkgeld Rechner AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0004BCE6258248D800D65C9C /* Build configuration list for PBXNativeTarget "Trinkgeld Rechner AppUITests" */;
+			buildPhases = (
+				0004BCD3258248D800D65C9C /* Sources */,
+				0004BCD4258248D800D65C9C /* Frameworks */,
+				0004BCD5258248D800D65C9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0004BCD9258248D800D65C9C /* PBXTargetDependency */,
+			);
+			name = "Trinkgeld Rechner AppUITests";
+			productName = "Trinkgeld Rechner AppUITests";
+			productReference = 0004BCD7258248D800D65C9C /* Trinkgeld Rechner AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0004BCAE258248D600D65C9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0004BCB5258248D600D65C9C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0004BCCB258248D700D65C9C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0004BCB5258248D600D65C9C;
+					};
+					0004BCD6258248D800D65C9C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0004BCB5258248D600D65C9C;
+					};
+				};
+			};
+			buildConfigurationList = 0004BCB1258248D600D65C9C /* Build configuration list for PBXProject "Trinkgeld Rechner App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0004BCAD258248D600D65C9C;
+			productRefGroup = 0004BCB7258248D600D65C9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0004BCB5258248D600D65C9C /* Trinkgeld Rechner App */,
+				0004BCCB258248D700D65C9C /* Trinkgeld Rechner AppTests */,
+				0004BCD6258248D800D65C9C /* Trinkgeld Rechner AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0004BCB4258248D600D65C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0004BCC6258248D700D65C9C /* LaunchScreen.storyboard in Resources */,
+				0004BCC3258248D700D65C9C /* Assets.xcassets in Resources */,
+				0004BCC1258248D600D65C9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004BCCA258248D700D65C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004BCD5258248D800D65C9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0004BCB2258248D600D65C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0004BCBE258248D600D65C9C /* ViewController.swift in Sources */,
+				0004BCBA258248D600D65C9C /* AppDelegate.swift in Sources */,
+				0004BCBC258248D600D65C9C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004BCC8258248D700D65C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0004BCD1258248D700D65C9C /* Trinkgeld_Rechner_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0004BCD3258248D800D65C9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0004BCDC258248D800D65C9C /* Trinkgeld_Rechner_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0004BCCE258248D700D65C9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0004BCB5258248D600D65C9C /* Trinkgeld Rechner App */;
+			targetProxy = 0004BCCD258248D700D65C9C /* PBXContainerItemProxy */;
+		};
+		0004BCD9258248D800D65C9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0004BCB5258248D600D65C9C /* Trinkgeld Rechner App */;
+			targetProxy = 0004BCD8258248D800D65C9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0004BCBF258248D600D65C9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0004BCC0258248D600D65C9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0004BCC4258248D700D65C9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0004BCC5258248D700D65C9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0004BCDE258248D800D65C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0004BCDF258248D800D65C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0004BCE1258248D800D65C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trinkgeld Rechner App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.codinggod.Trinkgeld-Rechner-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0004BCE2258248D800D65C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trinkgeld Rechner App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.codinggod.Trinkgeld-Rechner-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0004BCE4258248D800D65C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trinkgeld Rechner AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.codinggod.Trinkgeld-Rechner-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trinkgeld Rechner App.app/Trinkgeld Rechner App";
+			};
+			name = Debug;
+		};
+		0004BCE5258248D800D65C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trinkgeld Rechner AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.codinggod.Trinkgeld-Rechner-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trinkgeld Rechner App.app/Trinkgeld Rechner App";
+			};
+			name = Release;
+		};
+		0004BCE7258248D800D65C9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trinkgeld Rechner AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.codinggod.Trinkgeld-Rechner-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trinkgeld Rechner App";
+			};
+			name = Debug;
+		};
+		0004BCE8258248D800D65C9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trinkgeld Rechner AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.codinggod.Trinkgeld-Rechner-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trinkgeld Rechner App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0004BCB1258248D600D65C9C /* Build configuration list for PBXProject "Trinkgeld Rechner App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0004BCDE258248D800D65C9C /* Debug */,
+				0004BCDF258248D800D65C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0004BCE0258248D800D65C9C /* Build configuration list for PBXNativeTarget "Trinkgeld Rechner App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0004BCE1258248D800D65C9C /* Debug */,
+				0004BCE2258248D800D65C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0004BCE3258248D800D65C9C /* Build configuration list for PBXNativeTarget "Trinkgeld Rechner AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0004BCE4258248D800D65C9C /* Debug */,
+				0004BCE5258248D800D65C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0004BCE6258248D800D65C9C /* Build configuration list for PBXNativeTarget "Trinkgeld Rechner AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0004BCE7258248D800D65C9C /* Debug */,
+				0004BCE8258248D800D65C9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0004BCAE258248D600D65C9C /* Project object */;
+}
